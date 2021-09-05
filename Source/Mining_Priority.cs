@@ -1,16 +1,10 @@
-﻿using System.Reflection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Verse;
+﻿using HarmonyLib;
 using UnityEngine;
-using HarmonyLib;
-using RimWorld;
+using Verse;
 
 namespace Mining_Priority
 {
-	public class Mod : Verse.Mod
+  public class Mod : Verse.Mod
 	{
 		public Mod(ModContentPack content) : base(content)
 		{
